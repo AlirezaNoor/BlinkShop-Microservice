@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{ABAD877C-5DFD-46C6-ADC6-5B515817B198}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetWay", "GetWay", "{E25A6FFC-2DC8-4743-ADE5-95A369A102B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration", "integration", "{FD0449AF-68FA-4980-82FE-3994A45BC345}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{640E6E24-AB6C-49DF-8DAB-9BA2D126C300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkShop.Services.Coupon.Api", "BlinkShop.Services.Coupon.Api\BlinkShop.Services.Coupon.Api.csproj", "{3605CD02-02F3-4BE2-B872-F588A645292E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkShop.Web", "BlinkShop.Web\BlinkShop.Web.csproj", "{0ECEE003-89CD-465B-82C1-C8C52D88176F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3605CD02-02F3-4BE2-B872-F588A645292E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3605CD02-02F3-4BE2-B872-F588A645292E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3605CD02-02F3-4BE2-B872-F588A645292E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3605CD02-02F3-4BE2-B872-F588A645292E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ECEE003-89CD-465B-82C1-C8C52D88176F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECEE003-89CD-465B-82C1-C8C52D88176F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECEE003-89CD-465B-82C1-C8C52D88176F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECEE003-89CD-465B-82C1-C8C52D88176F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3605CD02-02F3-4BE2-B872-F588A645292E} = {640E6E24-AB6C-49DF-8DAB-9BA2D126C300}
+		{0ECEE003-89CD-465B-82C1-C8C52D88176F} = {ABAD877C-5DFD-46C6-ADC6-5B515817B198}
+	EndGlobalSection
+EndGlobal

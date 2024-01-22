@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BlinkShop.Services.Coupon.Api.props" />
+</Project>

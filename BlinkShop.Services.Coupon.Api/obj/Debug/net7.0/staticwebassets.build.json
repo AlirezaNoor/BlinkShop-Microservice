@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LEj4HPnGugLd8IL5tW/MJ4g6j7EjUx46dz8ISC4DTjk=",
+  "Source": "BlinkShop.Services.Coupon.Api",
+  "BasePath": "_content/BlinkShop.Services.Coupon.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
