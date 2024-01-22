@@ -1,0 +1,35 @@
+@model List<CouponDto>
+ <div class="row">
+    <div class="col-12">
+ <div class="card"  >
+     <div class="card-header">
+         جدول لیست کوپون ها
+     </div>
+   <div class="card-body">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">کد</th>
+        <th scope="col">تخفیف</th>
+        <th scope="col">حداقل خرید</th>
+      </tr>
+    </thead>
+    <tbody>
+    @foreach (var i in Model)
+    {
+      <tr>
+      <th scope="row">@i.CouponId</th>
+      <td>@i.CouponCode</td>
+      <td>@i.DiscountAmount</td>
+      <td>@i.MinAmount</td>
+      </tr>
+    }
+
+    </tbody>
+  </table>
+   </div>
+ </div>
+    </div>
+ 
+  </div>

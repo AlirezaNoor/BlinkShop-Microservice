@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\micro service\project\BlinkShop\BlinkShop.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/micro service/project/BlinkShop/BlinkShop.Web/Views/Coupon/CouponGetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXENvdXBvbkdldEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/micro service/project/BlinkShop/BlinkShop.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
