@@ -69,7 +69,8 @@ public class CouponContorller : BaseOfController
     }
 
     [HttpPost]
-    public ResponseDto CreateCoupon(CouponDto couponDto)
+    public ResponseDto CreateCoupon([FromBody]CouponDto couponDto)
+    
     {
         try
         {
@@ -89,7 +90,7 @@ public class CouponContorller : BaseOfController
     }
     
     [HttpPut]
-    public ResponseDto UpdateCoupon(CouponDto couponDto)
+    public ResponseDto UpdateCoupon([FromBody]CouponDto couponDto)
     {
         try
         {

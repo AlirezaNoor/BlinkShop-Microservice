@@ -25,4 +25,10 @@ public class CouponController:Controller
 
         return View(list);
     }
+
+    [HttpGet]
+    public async Task<IActionResult> CreateCoupon()
+    {
+        return View();
+    }
 }
