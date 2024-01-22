@@ -31,4 +31,21 @@ public class CouponController:Controller
     {
         return View();
     }
+    
+    [HttpPost]
+    public async Task<IActionResult> CreateCoupon(CouponDto couponDto)
+    {
+      
+            var create =await _couponService.Create(couponDto);
+            if (create!=null && create.Success)
+            {
+                var result = JsonConvert.DeserializeObject<CouponDto>(Convert.ToString(create.Result));
+                ViewBag.Message = "عملیات با موفقیت انجام شد";
+                return View(couponDto);
+
+            }
+            ViewBag.Message = "عملیات با خطا  مواجه شد  ";
+            
+        return View();
+    }
 }

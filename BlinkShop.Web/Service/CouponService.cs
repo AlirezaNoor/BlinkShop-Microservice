@@ -47,7 +47,7 @@ public class CouponService : ICouponService
         {
             ApiType = SD.ApiType.POST,
             Data = couponDto,
-            url = SD.CouponBaseUrlApi
+            url = SD.CouponBaseUrlApi+"/CouponContorller"
         });
     }
 
