@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkShop.Services.Coupon.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkShop.Web", "BlinkShop.Web\BlinkShop.Web.csproj", "{0ECEE003-89CD-465B-82C1-C8C52D88176F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlicnkShop.Service.Athu.Api", "BlicnkShop.Service.Athu.Api\BlicnkShop.Service.Athu.Api.csproj", "{DAAAC196-6250-42F9-BE2A-401B623B3947}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{0ECEE003-89CD-465B-82C1-C8C52D88176F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ECEE003-89CD-465B-82C1-C8C52D88176F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ECEE003-89CD-465B-82C1-C8C52D88176F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAAC196-6250-42F9-BE2A-401B623B3947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAAC196-6250-42F9-BE2A-401B623B3947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAAC196-6250-42F9-BE2A-401B623B3947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAAC196-6250-42F9-BE2A-401B623B3947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3605CD02-02F3-4BE2-B872-F588A645292E} = {640E6E24-AB6C-49DF-8DAB-9BA2D126C300}
 		{0ECEE003-89CD-465B-82C1-C8C52D88176F} = {ABAD877C-5DFD-46C6-ADC6-5B515817B198}
+		{DAAAC196-6250-42F9-BE2A-401B623B3947} = {640E6E24-AB6C-49DF-8DAB-9BA2D126C300}
 	EndGlobalSection
 EndGlobal

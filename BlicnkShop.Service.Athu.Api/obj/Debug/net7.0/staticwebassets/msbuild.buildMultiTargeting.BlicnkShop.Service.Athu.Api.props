@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BlicnkShop.Service.Athu.Api.props" />
+</Project>

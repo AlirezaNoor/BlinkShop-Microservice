@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BlicnkShop.Service.Athu.Api.props" />
+</Project>
