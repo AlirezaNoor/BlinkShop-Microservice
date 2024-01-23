@@ -109,7 +109,7 @@ public class CouponContorller : BaseOfController
         }
     }
     
-    [HttpDelete]
+    [HttpDelete("{id:int}")]
     public ResponseDto UpdateCoupon(int id)
     {
         try

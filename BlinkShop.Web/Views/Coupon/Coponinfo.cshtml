@@ -1,0 +1,31 @@
+@model CouponDto
+<div class="row">
+    <div class="col-12">
+
+
+        <div class="card">
+            <form asp-action="Deleted"  method="post">
+                <div class="card-header">ساخت کد تخفیف</div>
+                <div class="card-body">
+                    <div class="col-6">
+                        <input type="hidden" asp-for="CouponId">
+                        <input class="form-control form-control-lg my-3" type="text" placeholder="کد تخفیفی" disabled  asp-for="CouponCode" aria-label=".form-control-lg example">
+                        <input class="form-control my-3" type="text" placeholder="میزان تخفیف" disabled  asp-for="DiscountAmount" aria-label="default input example">
+                        <input class="form-control form-control-sm my-3" type="text" placeholder="حداقل خرید  " disabled  asp-for="MinAmount" aria-label=".form-control-sm example">
+                    </div>
+                    <div class="col-3">
+                        <input type="submit" value="Delete" class="btn btn-danger"/> >
+                    </div>
+                    <div class="col-3">
+                        <a  class="btn btn-dark"> بازگشت</a>
+                    </div>
+
+                </div>
+            </form>
+            <div class="card-footer">
+
+            </div>
+        </div>
+
+    </div>
+</div>

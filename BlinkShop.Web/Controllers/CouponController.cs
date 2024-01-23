@@ -48,4 +48,30 @@ public class CouponController:Controller
             
         return View();
     }
+    [HttpGet("{id}")]
+    public async Task<IActionResult> Coponinfo(int id)
+    {
+        var response=await _couponService.GetById(id);
+        if (response!=null && response.Success)
+        {
+            CouponDto couponDto = JsonConvert.DeserializeObject<CouponDto>(Convert.ToString(response.Result));
+     
+            return View(couponDto);
+        }
+
+        ViewBag.Message = "عملیات با خطا مواجه گردید";
+        return NotFound();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Deleted(CouponDto dto)
+    {
+        var response =await _couponService.Remove(dto.CouponId);
+        if (response!=null&& response.Success)
+        {
+            return RedirectToAction("CouponGetAll");
+        }
+
+        return NotFound();
+    }
 }

@@ -41,6 +41,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "toastr": {
+              "target": "Package",
+              "version": "[2.1.1, )"
             }
           },
           "imports": [
