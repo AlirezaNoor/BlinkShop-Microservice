@@ -19,16 +19,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f36cd8ac-28b2-49f9-bc02-ac1eae93c003" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Controllers/AuthController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Data/Contexts/AthuContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/model/LoginRequestDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/model/RegestrationRequestDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/model/ResponseDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/model/UserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Service/AthuServices.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Service/Gwtgenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Service/IService/IAthuServices.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Service/IService/IGwtgenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/model/JWTOption.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/ref/BlicnkShop.Service.Athu.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/ref/BlicnkShop.Service.Athu.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/refint/BlicnkShop.Service.Athu.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/refint/BlicnkShop.Service.Athu.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +89,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.BlinkShop.Services.Coupon.Api: http">
+  <component name="RunManager" selected=".NET Launch Settings Profile.BlicnkShop.Service.Athu.Api: IIS Express">
     <configuration name="Runproject" type="CompoundRunConfigurationType">
       <toRun name="BlinkShop.Services.Coupon.Api: https" type="LaunchSettings" />
       <toRun name="BlinkShop.Web: https" type="LaunchSettings" />
@@ -287,7 +302,8 @@
       <workItem from="1705824153806" duration="16320000" />
       <workItem from="1705900235220" duration="20220000" />
       <workItem from="1705987462663" duration="8291000" />
-      <workItem from="1705999946987" duration="5604000" />
+      <workItem from="1705999946987" duration="10957000" />
+      <workItem from="1706072701376" duration="11841000" />
     </task>
     <servers />
   </component>
@@ -300,32 +316,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Controllers/CouponContorller.cs</url>
-          <line>76</line>
-          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.Coupon.Api\Controllers\CouponContorller.cs" initialLine="76" containingFunctionPresentation="Method 'CreateCoupon'">
-            <startOffsets>
-              <option value="2117" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2168" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Controllers/CouponContorller.cs</url>
-          <line>79</line>
-          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.Coupon.Api\Controllers\CouponContorller.cs" initialLine="79" containingFunctionPresentation="Method 'CreateCoupon'">
-            <startOffsets>
-              <option value="2214" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2235" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Controllers/CouponContorller.cs</url>
           <line>121</line>
