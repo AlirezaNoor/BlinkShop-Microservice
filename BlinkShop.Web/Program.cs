@@ -10,6 +10,7 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddHttpClient();
 builder.Services.AddHttpClient<ICouponService, CouponService>();
 SD.CouponBaseUrlApi = builder.Configuration["ServiceUrl:CouponApi"];
+SD.AthuUrlApi = builder.Configuration["ServiceUrl:AthuApi"];
 
 
 //inject the  dependency

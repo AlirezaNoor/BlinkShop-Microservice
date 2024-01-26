@@ -19,31 +19,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f36cd8ac-28b2-49f9-bc02-ac1eae93c003" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Service/AthuServices.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Service/Gwtgenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Service/IService/IAthuServices.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Service/IService/IGwtgenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/model/JWTOption.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources/ad6a42b4-0b42-4d74-8ead-7cd97ab6f020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources/ad6a42b4-0b42-4d74-8ead-7cd97ab6f020/storage_v2/_src_/database/BlinkShop.Coupon.YrnioQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources/ad6a42b4-0b42-4d74-8ead-7cd97ab6f020/storage_v2/_src_/database/BlinkShop.Coupon.YrnioQ/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources/ad6a42b4-0b42-4d74-8ead-7cd97ab6f020/storage_v2/_src_/database/BlinkShop.Coupon.YrnioQ/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources/ad6a42b4-0b42-4d74-8ead-7cd97ab6f020/storage_v2/_src_/database/BlinkShop.Coupon.YrnioQ/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources/de50bd3f-f97d-4c16-b1af-7eb4a5c47fe5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources/de50bd3f-f97d-4c16-b1af-7eb4a5c47fe5/storage_v2/_src_/database/BlinkShop.Athu.vNiMDg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources/de50bd3f-f97d-4c16-b1af-7eb4a5c47fe5/storage_v2/_src_/database/BlinkShop.Athu.vNiMDg/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources/de50bd3f-f97d-4c16-b1af-7eb4a5c47fe5/storage_v2/_src_/database/BlinkShop.Athu.vNiMDg/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources/de50bd3f-f97d-4c16-b1af-7eb4a5c47fe5/storage_v2/_src_/database/BlinkShop.Athu.vNiMDg/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Migrations/20240126114045_thisisfirstmigration.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Migrations/20240126114045_thisisfirstmigration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Migrations/20240126114007_thisisfirstmigration.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Migrations/20240126114007_thisisfirstmigration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinkShop.Web/Models/LoginRequestDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinkShop.Web/Models/LoginResponeseDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinkShop.Web/Models/RegestrationRequestDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinkShop.Web/Models/UserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinkShop.Web/Service/AthuService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinkShop.Web/Service/IService/IAthuService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/efCoreCommonOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/efCoreCommonOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/efCoreDialogsState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/efCoreDialogsState.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/BlicnkShop.Service.Athu.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/BlicnkShop.Service.Athu.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/BlicnkShop.Service.Athu.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/BlicnkShop.Service.Athu.Api.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/ref/BlicnkShop.Service.Athu.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/ref/BlicnkShop.Service.Athu.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/refint/BlicnkShop.Service.Athu.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/refint/BlicnkShop.Service.Athu.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Migrations/BlinkShopDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Migrations/BlinkShopDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/bin/Debug/net7.0/BlinkShop.Services.Coupon.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/bin/Debug/net7.0/BlinkShop.Services.Coupon.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/bin/Debug/net7.0/BlinkShop.Services.Coupon.Api.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/bin/Debug/net7.0/BlinkShop.Services.Coupon.Api.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/bin/Debug/net7.0/BlinkShop.Services.Coupon.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/bin/Debug/net7.0/BlinkShop.Services.Coupon.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/BlinkShop.Services.Coupon.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/BlinkShop.Services.Coupon.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/BlinkShop.Services.Coupon.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/BlinkShop.Services.Coupon.Api.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/ref/BlinkShop.Services.Coupon.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/ref/BlinkShop.Services.Coupon.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/refint/BlinkShop.Services.Coupon.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/refint/BlinkShop.Services.Coupon.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/Utility/SD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/Utility/SD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/BlinkShop.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/BlinkShop.Web.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/BlinkShop.Web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/BlinkShop.Web.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.RazorAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.RazorAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,28 +131,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.BlicnkShop.Service.Athu.Api: IIS Express.executor": "Debug",
+    ".NET Launch Settings Profile.BlinkShop.Services.Coupon.Api: http.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\shahab-i317\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\shahab-i317\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\shahab-i317\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Alireza\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Alireza\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\Alireza\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BlicnkShop.Service.Athu.Api: IIS Express">
     <configuration name="Runproject" type="CompoundRunConfigurationType">
       <toRun name="BlinkShop.Services.Coupon.Api: https" type="LaunchSettings" />
@@ -304,6 +370,10 @@
       <workItem from="1705987462663" duration="8291000" />
       <workItem from="1705999946987" duration="10957000" />
       <workItem from="1706072701376" duration="11841000" />
+      <workItem from="1706266024206" duration="1131000" />
+      <workItem from="1706267220705" duration="1051000" />
+      <workItem from="1706269156104" duration="581000" />
+      <workItem from="1706284962425" duration="1608000" />
     </task>
     <servers />
   </component>
@@ -319,66 +389,31 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Controllers/CouponContorller.cs</url>
           <line>121</line>
-          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.Coupon.Api\Controllers\CouponContorller.cs" initialLine="121" containingFunctionPresentation="Method 'UpdateCoupon'">
-            <startOffsets>
-              <option value="3316" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3336" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.Coupon.Api\Controllers\CouponContorller.cs" initialLine="121" containingFunctionPresentation="Method 'UpdateCoupon'" />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Web/Controllers/CouponController.cs</url>
           <line>52</line>
-          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Web\Controllers\CouponController.cs" initialLine="52" containingFunctionPresentation="Method 'Coponinfo'">
-            <startOffsets>
-              <option value="1468" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1469" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Web\Controllers\CouponController.cs" initialLine="52" containingFunctionPresentation="Method 'Coponinfo'" />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Web/Controllers/CouponController.cs</url>
           <line>54</line>
-          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Web\Controllers\CouponController.cs" initialLine="54" containingFunctionPresentation="Method 'Coponinfo'">
-            <startOffsets>
-              <option value="1533" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1572" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Web\Controllers\CouponController.cs" initialLine="54" containingFunctionPresentation="Method 'Coponinfo'" />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Web/Controllers/CouponController.cs</url>
           <line>67</line>
-          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Web\Controllers\CouponController.cs" initialLine="67" containingFunctionPresentation="Method 'Deleted'">
-            <startOffsets>
-              <option value="1915" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1916" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Web\Controllers\CouponController.cs" initialLine="67" containingFunctionPresentation="Method 'Deleted'" />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Web/Controllers/CouponController.cs</url>
           <line>70</line>
-          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Web\Controllers\CouponController.cs" initialLine="70" containingFunctionPresentation="Method 'Deleted'">
-            <startOffsets>
-              <option value="2037" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2038" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Web\Controllers\CouponController.cs" initialLine="70" containingFunctionPresentation="Method 'Deleted'" />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>

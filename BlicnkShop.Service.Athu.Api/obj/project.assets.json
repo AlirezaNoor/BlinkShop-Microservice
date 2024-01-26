@@ -3629,19 +3629,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shahab-i317\\.nuget\\packages\\": {}
+    "C:\\Users\\Alireza\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\micro service\\project\\BlinkShop\\BlicnkShop.Service.Athu.Api\\BlicnkShop.Service.Athu.Api.csproj",
+      "projectUniqueName": "F:\\Projrcts\\MicroserviceProjects\\BlicnkShop.Service.Athu.Api\\BlicnkShop.Service.Athu.Api.csproj",
       "projectName": "BlicnkShop.Service.Athu.Api",
-      "projectPath": "D:\\micro service\\project\\BlinkShop\\BlicnkShop.Service.Athu.Api\\BlicnkShop.Service.Athu.Api.csproj",
-      "packagesPath": "C:\\Users\\shahab-i317\\.nuget\\packages\\",
-      "outputPath": "D:\\micro service\\project\\BlinkShop\\BlicnkShop.Service.Athu.Api\\obj\\",
+      "projectPath": "F:\\Projrcts\\MicroserviceProjects\\BlicnkShop.Service.Athu.Api\\BlicnkShop.Service.Athu.Api.csproj",
+      "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
+      "outputPath": "F:\\Projrcts\\MicroserviceProjects\\BlicnkShop.Service.Athu.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\shahab-i317\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -3727,7 +3727,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

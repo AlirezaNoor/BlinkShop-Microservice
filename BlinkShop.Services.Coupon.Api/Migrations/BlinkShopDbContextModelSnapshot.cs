@@ -53,7 +53,7 @@ namespace BlinkShop.Services.Coupon.Api.Migrations
                             CouponId = 1,
                             CouponCode = "10OFf",
                             DiscountAmount = 10.0,
-                            LastUpdated = new DateTime(2024, 1, 21, 15, 5, 44, 582, DateTimeKind.Local).AddTicks(8912),
+                            LastUpdated = new DateTime(2024, 1, 26, 11, 40, 7, 516, DateTimeKind.Local).AddTicks(8893),
                             MinAmount = 20
                         },
                         new
@@ -61,7 +61,7 @@ namespace BlinkShop.Services.Coupon.Api.Migrations
                             CouponId = 2,
                             CouponCode = "20OFf",
                             DiscountAmount = 20.0,
-                            LastUpdated = new DateTime(2024, 1, 21, 15, 5, 44, 582, DateTimeKind.Local).AddTicks(8974),
+                            LastUpdated = new DateTime(2024, 1, 26, 11, 40, 7, 516, DateTimeKind.Local).AddTicks(8943),
                             MinAmount = 40
                         });
                 });

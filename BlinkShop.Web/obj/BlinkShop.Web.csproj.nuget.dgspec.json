@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\micro service\\project\\BlinkShop\\BlinkShop.Web\\BlinkShop.Web.csproj": {}
+    "F:\\Projrcts\\MicroserviceProjects\\BlinkShop.Web\\BlinkShop.Web.csproj": {}
   },
   "projects": {
-    "D:\\micro service\\project\\BlinkShop\\BlinkShop.Web\\BlinkShop.Web.csproj": {
+    "F:\\Projrcts\\MicroserviceProjects\\BlinkShop.Web\\BlinkShop.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\micro service\\project\\BlinkShop\\BlinkShop.Web\\BlinkShop.Web.csproj",
+        "projectUniqueName": "F:\\Projrcts\\MicroserviceProjects\\BlinkShop.Web\\BlinkShop.Web.csproj",
         "projectName": "BlinkShop.Web",
-        "projectPath": "D:\\micro service\\project\\BlinkShop\\BlinkShop.Web\\BlinkShop.Web.csproj",
-        "packagesPath": "C:\\Users\\shahab-i317\\.nuget\\packages\\",
-        "outputPath": "D:\\micro service\\project\\BlinkShop\\BlinkShop.Web\\obj\\",
+        "projectPath": "F:\\Projrcts\\MicroserviceProjects\\BlinkShop.Web\\BlinkShop.Web.csproj",
+        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
+        "outputPath": "F:\\Projrcts\\MicroserviceProjects\\BlinkShop.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shahab-i317\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
