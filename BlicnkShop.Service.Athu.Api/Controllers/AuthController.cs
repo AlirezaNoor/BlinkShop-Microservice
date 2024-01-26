@@ -48,11 +48,11 @@ public class AuthController:BaseController
     [HttpPost("Addrole")]
     public async Task<IActionResult> Addrole(RegestrationRequestDto regestrationRequestDto)
     {
-        var user = await _athuServices.Regestration(regestrationRequestDto);
-        if (!string.IsNullOrEmpty(user))
+        var user = await _athuServices.AddRole(regestrationRequestDto.UserName,regestrationRequestDto.role);
+        if (!user)
         {
             _responseDto.Success = false;
-            _responseDto.Massege = user;
+            _responseDto.Massege = "this is false";
             return BadRequest(_responseDto);
         }
         else

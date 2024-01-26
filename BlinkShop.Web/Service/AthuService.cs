@@ -24,9 +24,15 @@ public class AthuService : IAthuService
         });
     }
 
-    public Task<ResponseDto?> Regitertion(RegestrationRequestDto requestDto)
+    public async Task<ResponseDto?> Regitertion(RegestrationRequestDto requestDto)
     {
-        throw new NotImplementedException();
+        var url = SD.AthuUrlApi + "/Auth/Login";
+        return await _baseService.SendAsync(new RequestDto()
+        {
+            ApiType = SD.ApiType.POST,
+            url = url,
+            Data = requestDto
+        });
     }
 
     public Task<ResponseDto?> Addrole(RegestrationRequestDto requestDto)
