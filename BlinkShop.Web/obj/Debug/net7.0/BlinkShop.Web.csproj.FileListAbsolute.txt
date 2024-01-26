@@ -32,3 +32,37 @@ D:\micro service\project\BlinkShop\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.
 D:\micro service\project\BlinkShop\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.genruntimeconfig.cache
 D:\micro service\project\BlinkShop\BlinkShop.Web\obj\Debug\net7.0\ref\BlinkShop.Web.dll
 D:\micro service\project\BlinkShop\BlinkShop.Web\bin\Debug\net7.0\package-lock.json
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\bin\Debug\net7.0\appsettings.Development.json
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\bin\Debug\net7.0\appsettings.json
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\bin\Debug\net7.0\package-lock.json
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\bin\Debug\net7.0\BlinkShop.Web.staticwebassets.runtime.json
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\bin\Debug\net7.0\BlinkShop.Web.exe
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\bin\Debug\net7.0\BlinkShop.Web.deps.json
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\bin\Debug\net7.0\BlinkShop.Web.runtimeconfig.json
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\bin\Debug\net7.0\BlinkShop.Web.dll
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\bin\Debug\net7.0\BlinkShop.Web.pdb
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.csproj.AssemblyReference.cache
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.AssemblyInfoInputs.cache
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.AssemblyInfo.cs
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.csproj.CoreCompileInputs.cache
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.MvcApplicationPartsAssemblyInfo.cache
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.RazorAssemblyInfo.cache
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.RazorAssemblyInfo.cs
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\staticwebassets.build.json
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\staticwebassets.development.json
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\staticwebassets\msbuild.BlinkShop.Web.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\staticwebassets\msbuild.build.BlinkShop.Web.props
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlinkShop.Web.props
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlinkShop.Web.props
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\staticwebassets.pack.json
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\scopedcss\bundle\BlinkShop.Web.styles.css
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\scopedcss\projectbundle\BlinkShop.Web.bundle.scp.css
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.csproj.CopyComplete
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.dll
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\refint\BlinkShop.Web.dll
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.pdb
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.genruntimeconfig.cache
+F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\ref\BlinkShop.Web.dll

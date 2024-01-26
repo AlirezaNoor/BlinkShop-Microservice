@@ -26,7 +26,7 @@ public class AthuService : IAthuService
 
     public async Task<ResponseDto?> Regitertion(RegestrationRequestDto requestDto)
     {
-        var url = SD.AthuUrlApi + "/Auth/Login";
+        var url = SD.AthuUrlApi + "/Auth/Registeration";
         return await _baseService.SendAsync(new RequestDto()
         {
             ApiType = SD.ApiType.POST,
@@ -35,8 +35,14 @@ public class AthuService : IAthuService
         });
     }
 
-    public Task<ResponseDto?> Addrole(RegestrationRequestDto requestDto)
+    public  async Task<ResponseDto?> Addrole(RegestrationRequestDto requestDto)
     {
-        throw new NotImplementedException();
+        var url = SD.AthuUrlApi + "/Auth/Addrole";
+        return await _baseService.SendAsync(new RequestDto()
+        {
+            ApiType = SD.ApiType.POST,
+            url = url,
+            Data = requestDto
+        });
     }
 }
