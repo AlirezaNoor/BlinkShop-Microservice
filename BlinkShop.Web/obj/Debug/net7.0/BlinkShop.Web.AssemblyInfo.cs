@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlinkShop.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49cc83a021e3528fc693ceb5a657def28e66716c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61f001762a1fff6f339f2d7601f3cc90bf5dd387")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlinkShop.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlinkShop.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

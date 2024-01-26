@@ -19,33 +19,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f36cd8ac-28b2-49f9-bc02-ac1eae93c003" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BlinkShop.Web/Controllers/AthuController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlinkShop.Web/Views/Athu/Login.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlinkShop.Web/Views/Athu/Regestration.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/Service/AthuService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/Service/AthuService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/Utility/SD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/Utility/SD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/Controllers/AthuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/Controllers/AthuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/Models/RegestrationRequestDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/Models/RegestrationRequestDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/Views/Athu/Regestration.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/Views/Athu/Regestration.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/ref/BlinkShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/ref/BlinkShop.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/refint/BlinkShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/refint/BlinkShop.Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +299,7 @@
       <workItem from="1706266024206" duration="1131000" />
       <workItem from="1706267220705" duration="1051000" />
       <workItem from="1706269156104" duration="581000" />
-      <workItem from="1706284962425" duration="7609000" />
+      <workItem from="1706284962425" duration="10862000" />
     </task>
     <servers />
   </component>
