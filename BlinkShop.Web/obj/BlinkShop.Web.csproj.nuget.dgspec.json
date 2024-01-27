@@ -42,6 +42,10 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.35.0, )"
+            },
             "toastr": {
               "target": "Package",
               "version": "[2.1.1, )"

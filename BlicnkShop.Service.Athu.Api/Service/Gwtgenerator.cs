@@ -6,7 +6,6 @@ using BlicnkShop.Service.Athu.Api.Service.IService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 
 namespace BlicnkShop.Service.Athu.Api.Service;
 
@@ -19,15 +18,16 @@ public class Gwtgenerator : IGwtgenerator
         _jwtOption = jwtOption.Value;
     }
 
-    public string GwrCreator(IdentityUser user)
+    public string GwrCreator(IdentityUser user,IEnumerable<string> role)
     {
         var Key = Encoding.ASCII.GetBytes(_jwtOption.SecretKey);
-        var clims = new List<Claim>();
+        var clims = new List<Claim>
         {
-            new Claim(JwtRegisteredClaimNames.Email, user.Email);
-            new Claim(JwtRegisteredClaimNames.Sub, user.Id);
-            new Claim(JwtRegisteredClaimNames.UniqueName, user.UserName);
-        }
+            new Claim(JwtRegisteredClaimNames.Email, user.Email),
+            new Claim(JwtRegisteredClaimNames.Sub, user.Id),
+            new Claim(JwtRegisteredClaimNames.UniqueName, user.UserName)
+        };
+        clims.AddRange(role.Select(x=>new Claim(ClaimTypes.Role,x)));
         var tokenDescriptor = new SecurityTokenDescriptor()
         {
             Audience = _jwtOption.Audience,

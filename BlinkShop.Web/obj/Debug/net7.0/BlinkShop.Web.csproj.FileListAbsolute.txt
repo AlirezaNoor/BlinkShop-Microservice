@@ -66,3 +66,8 @@ F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\refint\BlinkShop
 F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.pdb
 F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\BlinkShop.Web.genruntimeconfig.cache
 F:\Projrcts\MicroserviceProjects\BlinkShop.Web\obj\Debug\net7.0\ref\BlinkShop.Web.dll
+D:\micro service\project\BlinkShop\BlinkShop.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\micro service\project\BlinkShop\BlinkShop.Web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\micro service\project\BlinkShop\BlinkShop.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\micro service\project\BlinkShop\BlinkShop.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\micro service\project\BlinkShop\BlinkShop.Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

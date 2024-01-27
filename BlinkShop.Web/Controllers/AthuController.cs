@@ -1,22 +1,27 @@
+using System.IdentityModel.Tokens.Jwt;
 using System.Net.Mime;
+using System.Security.Claims;
 using BlinkShop.Web.Models;
 using BlinkShop.Web.Service.IService;
 using BlinkShop.Web.Utility;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
+using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 
 namespace BlinkShop.Web.Controllers;
 
 public class AthuController : Controller
 {
     private readonly IAthuService _athuService;
-  
-    public AthuController(IAthuService athuService)
+    private readonly ITokenProvider _tokenProvider;
+    public AthuController(IAthuService athuService, ITokenProvider tokenProvider)
     {
         _athuService = athuService;
- 
+        _tokenProvider = tokenProvider;
     }
 
     [HttpGet]
@@ -34,6 +39,8 @@ public class AthuController : Controller
             if (response!=null&&response.Success)
             {
                 var result = JsonConvert.DeserializeObject<LoginResponeseDto>(Convert.ToString(response.Result));
+                await SiginUSerAsync(result);
+                _tokenProvider.SetToken(result.Token);
                 return RedirectToAction("index", "Home");
             }
         }
@@ -78,5 +85,47 @@ public class AthuController : Controller
         ViewBag.List = list;
 
         return View();
+    }
+
+    public async Task<IActionResult> Logout()
+    {
+        await HttpContext.SignOutAsync();
+        _tokenProvider.ClearToken();
+        return RedirectToAction("index", "Home");
+    }
+    private async Task SiginUSerAsync(LoginResponeseDto responeseDto)
+    {
+        var handler = new JwtSecurityTokenHandler();
+        var jwt = handler.ReadJwtToken(responeseDto.Token);
+        var identity = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme);
+
+        var emailClaim = jwt.Claims.FirstOrDefault(x => x.Type == JwtRegisteredClaimNames.Email);
+        if (emailClaim != null)
+        {
+            identity.AddClaim(new Claim(JwtRegisteredClaimNames.Email, emailClaim.Value));
+        }
+
+        var uniqueNameClaim = jwt.Claims.FirstOrDefault(x => x.Type == JwtRegisteredClaimNames.UniqueName);
+        if (uniqueNameClaim != null)
+        {
+            identity.AddClaim(new Claim(JwtRegisteredClaimNames.UniqueName, uniqueNameClaim.Value));
+        }
+
+        var subClaim = jwt.Claims.FirstOrDefault(x => x.Type == JwtRegisteredClaimNames.Sub);
+        if (subClaim != null)
+        {
+            identity.AddClaim(new Claim(JwtRegisteredClaimNames.Sub, subClaim.Value));
+        }
+
+
+        var RoleList = jwt.Claims.FirstOrDefault(x => x.Type == "role");
+        if (RoleList!=null)
+        {
+            identity.AddClaim(new Claim(ClaimTypes.Role,RoleList.Value));
+        }
+        identity.AddClaim(new Claim(ClaimTypes.Name,uniqueNameClaim.Value));
+        var principle = new ClaimsPrincipal(identity);
+        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principle);
+
     }
 }

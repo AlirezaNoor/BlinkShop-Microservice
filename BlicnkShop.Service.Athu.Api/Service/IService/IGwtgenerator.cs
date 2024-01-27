@@ -6,6 +6,6 @@ namespace BlicnkShop.Service.Athu.Api.Service.IService;
 public interface IGwtgenerator
 {
 
-    string GwrCreator(IdentityUser user);
+    string GwrCreator(IdentityUser user,IEnumerable<string> role);
 
 }

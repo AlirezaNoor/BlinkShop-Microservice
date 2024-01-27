@@ -1,5 +1,6 @@
 using BlinkShop.Web.Models;
 using BlinkShop.Web.Service.IService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -14,6 +15,7 @@ public class CouponController:Controller
         _couponService = couponService;
     }
     [HttpGet]
+    [Authorize]
     public async Task<IActionResult> CouponGetAll()
     {
         List<CouponDto> list = new();
@@ -22,6 +24,8 @@ public class CouponController:Controller
         {
             list = JsonConvert.DeserializeObject<List<CouponDto>>(Convert.ToString(response.Result));
         }
+
+       
 
         return View(list);
     }

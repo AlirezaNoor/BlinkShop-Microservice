@@ -1,6 +1,7 @@
 using BlinkShop.Web.Service;
 using BlinkShop.Web.Service.IService;
 using BlinkShop.Web.Utility;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,13 @@ SD.AthuUrlApi = builder.Configuration["ServiceUrl:AthuApi"];
 builder.Services.AddScoped<ICouponService, CouponService>();
 builder.Services.AddScoped<IBaseService, BaseService>();
 builder.Services.AddScoped<IAthuService, AthuService>();
+builder.Services.AddScoped<ITokenProvider, TokenProvider>();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(opt =>
+{
+opt.ExpireTimeSpan=TimeSpan.FromHours(10);
+opt.LoginPath = "/Athu/Login";
+opt.AccessDeniedPath = "/Athu/AccessDenied";
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -34,7 +42,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

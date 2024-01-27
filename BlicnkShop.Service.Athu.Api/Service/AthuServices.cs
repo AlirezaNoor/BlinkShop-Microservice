@@ -70,10 +70,11 @@ public class AthuServices : IAthuServices
                 PhoneNumber = user.PhoneNumber,
                 Email = user.Email
             };
+            var role = await _userManager.GetRolesAsync(user);
             LoginResponeseDto login = new()
             {
                 user = userDto,
-                Token = _gwtgenerator.GwrCreator(user)
+                Token = _gwtgenerator.GwrCreator(user,role)
             };
 
             return login;
