@@ -4,6 +4,7 @@ using BlicnkShop.Service.Athu.Api.Service;
 using BlicnkShop.Service.Athu.Api.Service.IService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

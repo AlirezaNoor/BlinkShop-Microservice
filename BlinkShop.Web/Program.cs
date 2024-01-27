@@ -13,6 +13,7 @@ builder.Services.AddHttpClient<ICouponService, CouponService>();
 builder.Services.AddHttpClient<IAthuService, AthuService>();
 SD.CouponBaseUrlApi = builder.Configuration["ServiceUrl:CouponApi"];
 SD.AthuUrlApi = builder.Configuration["ServiceUrl:AthuApi"];
+///
 
 
 //inject the  dependency

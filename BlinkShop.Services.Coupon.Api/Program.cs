@@ -5,6 +5,7 @@ using BlinkShop.Services.Coupon.Api.Data.Context;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,9 +19,10 @@ builder.Services.AddDbContext<BlinkShopDbContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-var secret = builder.Configuration.GetValue<string>("ApiAthu:SecretKey");
-var Issuer = builder.Configuration.GetValue<string>("ApiAthu:Issuer");
-var Audience = builder.Configuration.GetValue<string>("ApiAthu:Audience");
+var setting = builder.Configuration.GetSection("ApiAthu");
+var secret = setting.GetValue<string>("SecretKey");
+var Issuer = setting.GetValue<string>("Issuer");
+var Audience = setting.GetValue<string>("Audience");
 //-----
 var key = Encoding.ASCII.GetBytes(secret);
 builder.Services.AddAuthentication(x =>
@@ -48,7 +50,31 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
+    builder.Services.AddSwaggerGen(opt =>
+    {
+        opt.AddSecurityDefinition(
+            name: JwtBearerDefaults.AuthenticationScheme, securityScheme: new OpenApiSecurityScheme
+            {
+                Name = "Authorize",
+                Description = "this is a configuration",
+                In = ParameterLocation.Header,
+                Type = SecuritySchemeType.ApiKey,
+                Scheme = "Brearer"
+            });
+        opt.AddSecurityRequirement(new OpenApiSecurityRequirement
+        {
+            {
+                new OpenApiSecurityScheme
+                {
+                    Reference = new OpenApiReference
+                    {
+                        Type = ReferenceType.SecurityScheme,
+                        Id = JwtBearerDefaults.AuthenticationScheme
+                    }
+                },new string[]{}
+            }
+        });
+    });
     app.UseSwaggerUI();
 }
 
