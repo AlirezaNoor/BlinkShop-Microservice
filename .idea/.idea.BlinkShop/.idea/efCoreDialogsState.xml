@@ -4,6 +4,7 @@
     <option name="keyValueStorage">
       <map>
         <entry key="Common:3605cd02-02f3-4be2-b872-f588a645292e:dbContext" value="BlinkShop.Services.Coupon.Api.Data.Context.BlinkShopDbContext" />
+        <entry key="Common:995da803-2463-47a1-91d1-817508599e34:dbContext" value="BlinlShop.Services.Product.Api.Context.myDbContext" />
         <entry key="Common:buildConfiguration" value="Debug" />
         <entry key="Common:daaac196-6250-42f9-be2a-401b623b3947:dbContext" value="BlicnkShop.Service.Athu.Api.Data.Contexts.AthuContext" />
         <entry key="Common:enableDiagnosticLogging" value="false" />

@@ -4,6 +4,9 @@
     <projectFile profileName="IIS Express">BlicnkShop.Service.Athu.Api/BlicnkShop.Service.Athu.Api.csproj</projectFile>
     <projectFile profileName="http">BlicnkShop.Service.Athu.Api/BlicnkShop.Service.Athu.Api.csproj</projectFile>
     <projectFile profileName="https">BlicnkShop.Service.Athu.Api/BlicnkShop.Service.Athu.Api.csproj</projectFile>
+    <projectFile profileName="IIS Express">BlinkShop.Products.Api/BlinkShop.Products.Api.csproj</projectFile>
+    <projectFile profileName="http">BlinkShop.Products.Api/BlinkShop.Products.Api.csproj</projectFile>
+    <projectFile profileName="https">BlinkShop.Products.Api/BlinkShop.Products.Api.csproj</projectFile>
     <projectFile profileName="IIS Express">BlinkShop.Services.Coupon.Api/BlinkShop.Services.Coupon.Api.csproj</projectFile>
     <projectFile profileName="http">BlinkShop.Services.Coupon.Api/BlinkShop.Services.Coupon.Api.csproj</projectFile>
     <projectFile profileName="https">BlinkShop.Services.Coupon.Api/BlinkShop.Services.Coupon.Api.csproj</projectFile>
@@ -13,38 +16,28 @@
     <projectFile profileName="IIS Express">BlinkShop/BlinkShop.csproj</projectFile>
     <projectFile profileName="http">BlinkShop/BlinkShop.csproj</projectFile>
     <projectFile profileName="https">BlinkShop/BlinkShop.csproj</projectFile>
+    <projectFile profileName="IIS Express">BlinlShop.Services.Product.Api/BlinlShop.Services.Product.Api.csproj</projectFile>
+    <projectFile profileName="http">BlinlShop.Services.Product.Api/BlinlShop.Services.Product.Api.csproj</projectFile>
+    <projectFile profileName="https">BlinlShop.Services.Product.Api/BlinlShop.Services.Product.Api.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f36cd8ac-28b2-49f9-bc02-ac1eae93c003" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources/de50bd3f-f97d-4c16-b1af-7eb4a5c47fe5/storage_v2/_src_/database/BlinkShop.Athu.vNiMDg/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources/de50bd3f-f97d-4c16-b1af-7eb4a5c47fe5/storage_v2/_src_/database/BlinkShop.Athu.vNiMDg/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinlShop.Services.Product.Api/Context/myDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinlShop.Services.Product.Api/Controllers/ProductController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinlShop.Services.Product.Api/Model/Products.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinlShop.Services.Product.Api/Model/ProductsDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinlShop.Services.Product.Api/Model/ResponseDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinlShop.Services.Product.Api/Services/IServices/IproductServices.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlinlShop.Services.Product.Api/Services/IServices/productServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/efCoreCommonOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/efCoreCommonOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/efCoreDialogsState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/efCoreDialogsState.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/bin/Debug/net7.0/BlicnkShop.Service.Athu.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/BlicnkShop.Service.Athu.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/ref/BlicnkShop.Service.Athu.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/ref/BlicnkShop.Service.Athu.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/refint/BlicnkShop.Service.Athu.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/obj/Debug/net7.0/refint/BlicnkShop.Service.Athu.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Controllers/CouponContorller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Controllers/CouponContorller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/bin/Debug/net7.0/BlinkShop.Services.Coupon.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/bin/Debug/net7.0/BlinkShop.Services.Coupon.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/bin/Debug/net7.0/BlinkShop.Services.Coupon.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/bin/Debug/net7.0/BlinkShop.Services.Coupon.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/BlinkShop.Services.Coupon.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/ref/BlinkShop.Services.Coupon.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/ref/BlinkShop.Services.Coupon.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/refint/BlinkShop.Services.Coupon.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/obj/Debug/net7.0/refint/BlinkShop.Services.Coupon.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/Controllers/CouponController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/Controllers/CouponController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/Service/BaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/Service/BaseService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/Service/IService/IBaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/Service/IService/IBaseService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/bin/Debug/net7.0/BlinkShop.Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/BlinkShop.Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/ref/BlinkShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/ref/BlinkShop.Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/refint/BlinkShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Web/obj/Debug/net7.0/refint/BlinkShop.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +91,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.BlinkShop.Web: http">
+  <component name="RunManager" selected=".NET Launch Settings Profile.BlinlShop.Services.Product.Api: IIS Express">
     <configuration name="Runproject" type="CompoundRunConfigurationType">
       <toRun name="BlinkShop.Services.Coupon.Api: https" type="LaunchSettings" />
       <toRun name="BlinkShop.Web: https" type="LaunchSettings" />
@@ -181,6 +174,51 @@
     </configuration>
     <configuration name="BlinkShop: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BlinkShop/BlinkShop.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="BlinkShop.Products.Api: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BlinkShop.Products.Api/BlinkShop.Products.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="BlinkShop.Products.Api: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BlinkShop.Products.Api/BlinkShop.Products.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="BlinkShop.Products.Api: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BlinkShop.Products.Api/BlinkShop.Products.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
       <option name="LAUNCH_PROFILE_NAME" value="https" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -284,7 +322,58 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="BlinlShop.Services.Product.Api: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BlinlShop.Services.Product.Api/BlinlShop.Services.Product.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="BlinlShop.Services.Product.Api: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BlinlShop.Services.Product.Api/BlinlShop.Services.Product.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="BlinlShop.Services.Product.Api: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BlinlShop.Services.Product.Api/BlinlShop.Services.Product.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue=".NET Launch Settings Profile.BlinkShop.Products.Api: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.BlinkShop.Products.Api: http" />
+      <item itemvalue=".NET Launch Settings Profile.BlinkShop.Products.Api: https" />
+      <item itemvalue=".NET Launch Settings Profile.BlinlShop.Services.Product.Api: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.BlinlShop.Services.Product.Api: http" />
+      <item itemvalue=".NET Launch Settings Profile.BlinlShop.Services.Product.Api: https" />
       <item itemvalue=".NET Launch Settings Profile.BlicnkShop.Service.Athu.Api: IIS Express" />
       <item itemvalue=".NET Launch Settings Profile.BlicnkShop.Service.Athu.Api: http" />
       <item itemvalue=".NET Launch Settings Profile.BlicnkShop.Service.Athu.Api: https" />
@@ -317,7 +406,7 @@
       <workItem from="1706267220705" duration="1051000" />
       <workItem from="1706269156104" duration="581000" />
       <workItem from="1706284962425" duration="10862000" />
-      <workItem from="1706419607654" duration="8967000" />
+      <workItem from="1706419607654" duration="17450000" />
     </task>
     <servers />
   </component>
@@ -390,30 +479,30 @@
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Controllers/CouponContorller.cs</url>
-          <line>26</line>
-          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.Coupon.Api\Controllers\CouponContorller.cs" initialLine="27" containingFunctionPresentation="Method 'GetAll'">
+          <url>file://$PROJECT_DIR$/BlinkShop.Web/Service/BaseService.cs</url>
+          <line>30</line>
+          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Web\Service\BaseService.cs" initialLine="30" containingFunctionPresentation="Method 'SendAsync'">
             <startOffsets>
-              <option value="737" />
+              <option value="909" />
             </startOffsets>
             <endOffsets>
-              <option value="738" />
+              <option value="946" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="105" />
+          <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BlinkShop.Services.Coupon.Api/Controllers/CouponContorller.cs</url>
-          <line>27</line>
-          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.Coupon.Api\Controllers\CouponContorller.cs" initialLine="28" containingFunctionPresentation="Method 'GetAll'">
+          <url>file://$PROJECT_DIR$/BlinkShop.Web/Service/BaseService.cs</url>
+          <line>31</line>
+          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Web\Service\BaseService.cs" initialLine="31" containingFunctionPresentation="Method 'SendAsync'">
             <startOffsets>
-              <option value="751" />
+              <option value="962" />
             </startOffsets>
             <endOffsets>
-              <option value="813" />
+              <option value="1017" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="106" />
+          <option name="timeStamp" value="111" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
