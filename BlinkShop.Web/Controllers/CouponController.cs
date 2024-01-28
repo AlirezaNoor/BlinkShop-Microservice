@@ -15,7 +15,7 @@ public class CouponController:Controller
         _couponService = couponService;
     }
     [HttpGet]
-    [Authorize]
+ 
     public async Task<IActionResult> CouponGetAll()
     {
         List<CouponDto> list = new();

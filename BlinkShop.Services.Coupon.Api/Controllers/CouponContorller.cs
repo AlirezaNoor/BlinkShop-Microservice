@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
 using BlinkShop.Services.Coupon.Api.Data.Context;
 using BlinkShop.Services.Coupon.Api.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlinkShop.Services.Coupon.Api.Controllers;
-
+[EnableCors("AllowsAll")]
 public class CouponContorller : BaseOfController
 {
     private readonly BlinkShopDbContext _blink;
@@ -18,6 +20,7 @@ public class CouponContorller : BaseOfController
     }
 
     [HttpGet]
+    [Authorize]
     public ResponseDto GetAll()
     {
         try

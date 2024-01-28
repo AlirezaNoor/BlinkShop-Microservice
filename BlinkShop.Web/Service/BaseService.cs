@@ -10,19 +10,27 @@ namespace BlinkShop.Web.Service;
 public class BaseService:IBaseService
 {
     private readonly IHttpClientFactory _httpClientFactory;
-
-    public BaseService(IHttpClientFactory httpClientFactory)
+    private readonly ITokenProvider _tokenProvider;
+    public BaseService(IHttpClientFactory httpClientFactory, ITokenProvider tokenProvider)
     {
         _httpClientFactory = httpClientFactory;
+        _tokenProvider = tokenProvider;
     }
 
-    public async Task<ResponseDto?> SendAsync(RequestDto requestDto)
+    public async Task<ResponseDto?> SendAsync(RequestDto requestDto,bool jwt=true)
     {
         try
         {
+            
             HttpClient client = _httpClientFactory.CreateClient("BlinkShopApi");
             HttpRequestMessage massege = new();
             massege.Headers.Add("Accept", "application/json");
+
+            if (jwt == true)
+            {
+               var token= _tokenProvider.GetToken();
+               massege.Headers.Add("Authorization",$"Bearer {token}");
+            }
             //token
             massege.RequestUri = new Uri(requestDto.url);
             if (requestDto.Data != null)

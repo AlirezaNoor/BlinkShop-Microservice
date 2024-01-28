@@ -14,14 +14,25 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", builder =>
+    {
+        builder
+            .AllowAnyOrigin() // or specify your allowed origins
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .WithExposedHeaders("Content-Disposition");
+    });
+});
 builder.Services.AddSwaggerGen(opt =>
 {
     opt.AddSecurityDefinition(
         name: JwtBearerDefaults.AuthenticationScheme,
         securityScheme: new OpenApiSecurityScheme
         {
-            Name = "Authorize",
-            Description = "this is a configuration",
+            Name = "Authorization",
+            Description = "this is a configuration: `Bearer Generated-JWT-Token`",
             In = ParameterLocation.Header,
             Type = SecuritySchemeType.ApiKey,
             Scheme = "Bearer"
@@ -38,7 +49,7 @@ builder.Services.AddSwaggerGen(opt =>
                     Id = JwtBearerDefaults.AuthenticationScheme
                 }
             },
-            new string[]{}
+            new string[] { }
         }
     });
 });
@@ -52,7 +63,7 @@ var Issuer = setting.GetValue<string>("Issuer");
 var Audience = setting.GetValue<string>("Audience");
 //-----
 var key = Encoding.ASCII.GetBytes(secret);
-builder.Services.AddAuthentication(x =>
+ builder.Services.AddAuthentication(x =>
 {
     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -66,25 +77,27 @@ builder.Services.AddAuthentication(x =>
             ValidateIssuer = true,
             ValidIssuer = Issuer,
             ValidAudience = Audience,
-            ValidateAudience = true
+            ValidateAudience = true,
+            ValidateLifetime = true, 
         };
     });
 IMapper mapper = MappingConfig.RegesterMap().CreateMapper();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "APIApplication v1"));  
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseCors("CorsPolicy");
 app.MapControllers();
 
 app.Run();
