@@ -4,6 +4,7 @@
     <option name="migrationsToStartupProjects">
       <map>
         <entry key="3605cd02-02f3-4be2-b872-f588a645292e" value="3605cd02-02f3-4be2-b872-f588a645292e" />
+        <entry key="74d19b2c-d291-4228-ac01-65ad7286bed4" value="74d19b2c-d291-4228-ac01-65ad7286bed4" />
         <entry key="995da803-2463-47a1-91d1-817508599e34" value="995da803-2463-47a1-91d1-817508599e34" />
         <entry key="daaac196-6250-42f9-be2a-401b623b3947" value="daaac196-6250-42f9-be2a-401b623b3947" />
       </map>
@@ -11,6 +12,7 @@
     <option name="startupToMigrationsProjects">
       <map>
         <entry key="3605cd02-02f3-4be2-b872-f588a645292e" value="3605cd02-02f3-4be2-b872-f588a645292e" />
+        <entry key="74d19b2c-d291-4228-ac01-65ad7286bed4" value="74d19b2c-d291-4228-ac01-65ad7286bed4" />
         <entry key="995da803-2463-47a1-91d1-817508599e34" value="995da803-2463-47a1-91d1-817508599e34" />
         <entry key="daaac196-6250-42f9-be2a-401b623b3947" value="daaac196-6250-42f9-be2a-401b623b3947" />
       </map>
