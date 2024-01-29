@@ -1,5 +1,6 @@
 using BlinlShop.Services.Product.Api.Model;
 using BlinlShop.Services.Product.Api.Services.IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlinlShop.Services.Product.Api.Controllers;
@@ -14,6 +15,7 @@ public class ProductController:BaseController
     }
 
     [HttpGet]
+    [Authorize]
     public async Task<IActionResult> GetAll()
     {
         var reslt = await _services.GetAll();

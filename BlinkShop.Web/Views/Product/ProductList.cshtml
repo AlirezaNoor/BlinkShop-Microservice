@@ -1,0 +1,85 @@
+@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<ProductsDto>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="d-inline justify-content-between">
+                    <span > جدول لیست کوپون ها</span>
+                    <span class="float-start">
+                        <a class="btn btn-success" asp-controller="Coupon" asp-action="CreateCoupon"> ساخت کد تخفیف</a>
+                    </span>
+                </div>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">عکس</th>
+                        <th scope="col">نام</th>
+                        <th scope="col">دسته بندی</th>
+                        <th scope="col">قیمت</th>
+                        <th scope="col">عملیات</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var i in Model)
+                    {
+                        <tr>
+                            <td>@i.id</td>
+                            <td><img src="@i.imgurl" alt="" width="90" height="90" class="rounded"></td>
+                            <th scope="row">@i.name</th>
+                            <td>@i.CategoryName</td>
+                            <td>@i.price</td>
+
+                            <td>
+                                >
+                                <a class="btn btn-danger" asp-action="" asp-route-id=" ">"حذف
+                                </a>
+                            </td>
+
+                        </tr>
+                    }
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-footer">
+                
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item @(Model.PageNumber == 1 ? "disabled" : "")">
+                            <a class="page-link" href="@Url.Action("ProductList", new { page = 1 })" aria-label="First">
+                                <span aria-hidden="true">&laquo;&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item @(Model.HasPreviousPage ? "" : "disabled")">
+                            <a class="page-link" href="@Url.Action("ProductList", new { page = Model.PageNumber - 1 })" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        @for (int i = 1; i <= Model.PageCount; i++)
+                        {
+                            <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                                <a class="page-link" href="@Url.Action("ProductList", new { page = i })">@i</a>
+                            </li>
+                        }
+                        <li class="page-item @(Model.HasNextPage ? "" : "disabled")">
+                            <a class="page-link" href="@Url.Action("ProductList", new { page = Model.PageNumber + 1 })" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item @(Model.PageNumber == Model.PageCount ? "disabled" : "")">
+                            <a class="page-link" href="@Url.Action("ProductList", new { page = Model.PageCount })" aria-label="Last">
+                                <span aria-hidden="true">&raquo;&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </div>
+    </div>
+
+</div>

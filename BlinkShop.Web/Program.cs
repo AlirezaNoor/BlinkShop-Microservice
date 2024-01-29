@@ -13,6 +13,7 @@ builder.Services.AddHttpClient<ICouponService, CouponService>();
 builder.Services.AddHttpClient<IAthuService, AthuService>();
 SD.CouponBaseUrlApi = builder.Configuration["ServiceUrl:CouponApi"];
 SD.AthuUrlApi = builder.Configuration["ServiceUrl:AthuApi"];
+SD.Product = builder.Configuration["ServiceUrl:productApi"];
 ///
 
 
@@ -21,6 +22,7 @@ builder.Services.AddScoped<ICouponService, CouponService>();
 builder.Services.AddScoped<IBaseService, BaseService>();
 builder.Services.AddScoped<IAthuService, AthuService>();
 builder.Services.AddScoped<ITokenProvider, TokenProvider>();
+builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(opt =>
 {
 opt.ExpireTimeSpan=TimeSpan.FromHours(10);

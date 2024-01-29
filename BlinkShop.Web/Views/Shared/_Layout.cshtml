@@ -27,7 +27,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            مدیریت کد تخفیف
+                            مدیریت محتوا
                         </a>
                         <ul class="dropdown-menu">
                             <li>
@@ -35,6 +35,9 @@
                             </li>
                             <li>
                                 <a class="dropdown-item text-light" asp-controller="Coupon" asp-action="CreateCoupon">ساخت کد تخفیف</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-light" asp-controller="Product" asp-action="ProductList">لیست محصول</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider text-light">
@@ -49,18 +52,18 @@
                     @if (!User.Identity.IsAuthenticated)
                     {
                         <li class="nav-item">
-                            <a class="nav-link text-light  "   asp-controller="Athu" asp-action="Login">ورود </a>
+                            <a class="nav-link text-light  " asp-controller="Athu" asp-action="Login">ورود </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light  "   asp-controller="Athu" asp-action="Regestration">عضویت </a>
+                            <a class="nav-link text-light  " asp-controller="Athu" asp-action="Regestration">عضویت </a>
                         </li>
                     }
                     else
                     {
                         <li class="nav-item">
-                            <a class="nav-link text-light  "  asp-action="Logout" asp-controller="Athu" >خروج </a>
-                            <a class="nav-link text-light  " >@User.Identity.Name </a>
-                        </li> 
+                            <a class="nav-link text-light  " asp-action="Logout" asp-controller="Athu">خروج </a>
+                            <a class="nav-link text-light  ">@User.Identity.Name </a>
+                        </li>
                     }
                 </ul>
             </div>
