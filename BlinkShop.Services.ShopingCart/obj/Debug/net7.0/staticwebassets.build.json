@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gXgjoJAmWzmfnTG9bYG/ZPqaxggXHxb5ZEMpf1hSTs8=",
+  "Source": "BlinkShop.Services.ShopingCart",
+  "BasePath": "_content/BlinkShop.Services.ShopingCart",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
