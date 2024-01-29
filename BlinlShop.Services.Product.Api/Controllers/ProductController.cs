@@ -14,8 +14,7 @@ public class ProductController:BaseController
         _services = services;
     }
 
-    [HttpGet]
-    [Authorize]
+    [HttpGet] 
     public async Task<IActionResult> GetAll()
     {
         var reslt = await _services.GetAll();

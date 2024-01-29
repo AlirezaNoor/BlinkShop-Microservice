@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "cY0z/CbId/m1yBYEqXahUcB+Myt2E5QaheIsIy9OBrix4wgWc5UOoWIX+nrUomt6Gsa2G3U5I2FjQgeV0PFGlw==",
+  "success": true,
+  "projectFilePath": "D:\\micro service\\project\\BlinkShop\\BlinkShop.Services.ShopingCart\\BlinkShop.Services.ShopingCart.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.14\\microsoft.aspnetcore.openapi.7.0.14.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

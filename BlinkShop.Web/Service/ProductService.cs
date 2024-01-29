@@ -61,4 +61,13 @@ public class ProductService : IProductService
             url = SD.Product + "/Product"+"/"+id,
         });
     }
+
+    public async Task<ResponseDto?> GetAllForHomePage()
+    {
+        return await _baseService.SendAsync(new RequestDto()
+        {
+            ApiType = SD.ApiType.GET,
+            url = SD.Product + "/Product",
+        },false);
+    }
 }

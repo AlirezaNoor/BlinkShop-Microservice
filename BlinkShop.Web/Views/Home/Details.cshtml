@@ -1,0 +1,36 @@
+@model ProductsDto
+
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="@Model.imgurl" alt="Product Image" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+        <h2>@Model.name</h2>
+        <p class="text-muted">دسته بندی:@Model.CategoryName </p>
+        <p>
+            <strong>قیمت: $@Model.price</strong>
+        </p>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <button class="btn btn-primary">Add to Cart</button>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <h3>توضیحات محصول</h3>
+        <p>@Model.Description</p>
+    </div>
+</div>

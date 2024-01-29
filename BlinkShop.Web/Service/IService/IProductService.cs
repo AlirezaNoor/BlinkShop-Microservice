@@ -9,4 +9,5 @@ public interface IProductService
     Task<ResponseDto?> Create(ProductsDto productsDto);
     Task<ResponseDto> Update(ProductsDto productsDto);
     Task<ResponseDto?> Delete(int id);
+    Task<ResponseDto?> GetAllForHomePage();
 }
