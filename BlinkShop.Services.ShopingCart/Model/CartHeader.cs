@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BlinkShop.Services.ShopingCart.Model;
 
-public class CratHeader
+public class CartHeader
 {
     [Key] public int id { get; set; }
     public string? userid { get; set; }

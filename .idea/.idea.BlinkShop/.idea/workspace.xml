@@ -32,8 +32,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f36cd8ac-28b2-49f9-bc02-ac1eae93c003" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/BlicnkShop.Service.Athu.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BlicnkShop.Service.Athu.Api/BlicnkShop.Service.Athu.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Context/CartShopDbContext/MyContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Context/CartShopDbContext/MyContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/BaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/BaseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Model/CardDtailes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Model/CardDtailes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Model/CardDtailesDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Model/CardDtailesDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Model/CratHeader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Model/CartHeader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "other",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -504,7 +507,7 @@
       <workItem from="1706505132057" duration="15200000" />
       <workItem from="1706529480757" duration="1842000" />
       <workItem from="1706591051203" duration="4613000" />
-      <workItem from="1706677534072" duration="288000" />
+      <workItem from="1706677534072" duration="1420000" />
     </task>
     <servers />
   </component>

@@ -14,6 +14,6 @@ public class MyContext:DbContext
         base.OnModelCreating(modelBuilder);
     }
 
-    public DbSet<CratHeader> CratHeaders { get; set; }
+    public DbSet<CartHeader> CratHeaders { get; set; }
     public DbSet<CardDtailes> CardDtailes { get; set; }
 }

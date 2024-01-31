@@ -10,6 +10,6 @@ public class CardDtailes
     public int CardHeaderId { get; set; }
     public int productId { get; set; }
     public int Count { get; set; }
-    [ForeignKey("CardHeaderId")] public CratHeader cartheader { get; set; }
+    [ForeignKey("CardHeaderId")] public CartHeader cartheader { get; set; }
     [NotMapped] public ProductsDto product { get; set; }
 }
