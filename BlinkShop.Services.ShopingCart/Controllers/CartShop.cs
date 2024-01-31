@@ -77,7 +77,36 @@ public class CartShop : ControllerBase
                     _myContext.CardDtailes.Add(cardDtailes);
                     await _myContext.SaveChangesAsync();
                 }
+
+                _responseDto.Result = cd;
             }
+        }
+        catch (Exception e)
+        {
+            _responseDto.Success = false;
+            _responseDto.Massege = e.Message;
+        }
+
+        return Ok(_responseDto);
+    }
+    
+    [HttpPost]
+    public async Task<IActionResult> Remove(int CardDetailsId)
+    {
+        try
+        {
+            var cartDtailesFromDb =await _myContext.CardDtailes.AsNoTracking().FirstOrDefaultAsync(x => x.CardDtailesId==CardDetailsId);
+            var cart = _myContext.CardDtailes.Where(x => x.CardHeaderId == cartDtailesFromDb.CardHeaderId).Count();
+            _myContext.CardDtailes.Remove(cartDtailesFromDb);
+            
+            if (cart == 1)
+            {
+                var cardheader =
+                    await _myContext.CratHeaders.FirstOrDefaultAsync(x => x.id == cartDtailesFromDb.CardHeaderId);
+                _myContext.CratHeaders.Remove(cardheader);
+                await _myContext.SaveChangesAsync();
+            }
+ 
         }
         catch (Exception e)
         {

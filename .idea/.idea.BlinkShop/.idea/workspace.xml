@@ -33,15 +33,6 @@
     <list default="true" id="f36cd8ac-28b2-49f9-bc02-ac1eae93c003" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Model/CardDtailesDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Model/CardDtailesDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Model/CartshopDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Model/CartshopDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/bin/Debug/net7.0/BlinkShop.Services.ShopingCart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/bin/Debug/net7.0/BlinkShop.Services.ShopingCart.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/bin/Debug/net7.0/BlinkShop.Services.ShopingCart.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/bin/Debug/net7.0/BlinkShop.Services.ShopingCart.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/BlinkShop.Services.ShopingCart.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/BlinkShop.Services.ShopingCart.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/BlinkShop.Services.ShopingCart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/BlinkShop.Services.ShopingCart.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/BlinkShop.Services.ShopingCart.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/BlinkShop.Services.ShopingCart.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/ref/BlinkShop.Services.ShopingCart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/ref/BlinkShop.Services.ShopingCart.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/refint/BlinkShop.Services.ShopingCart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/refint/BlinkShop.Services.ShopingCart.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -512,7 +503,7 @@
       <workItem from="1706505132057" duration="15200000" />
       <workItem from="1706529480757" duration="1842000" />
       <workItem from="1706591051203" duration="4613000" />
-      <workItem from="1706677534072" duration="9702000" />
+      <workItem from="1706677534072" duration="12612000" />
     </task>
     <servers />
   </component>
