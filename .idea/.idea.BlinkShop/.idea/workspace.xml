@@ -33,12 +33,6 @@
     <list default="true" id="f36cd8ac-28b2-49f9-bc02-ac1eae93c003" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlinkShop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/bin/Debug/net7.0/BlinkShop.Services.ShopingCart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/bin/Debug/net7.0/BlinkShop.Services.ShopingCart.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/bin/Debug/net7.0/BlinkShop.Services.ShopingCart.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/bin/Debug/net7.0/BlinkShop.Services.ShopingCart.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/BlinkShop.Services.ShopingCart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/BlinkShop.Services.ShopingCart.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/BlinkShop.Services.ShopingCart.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/BlinkShop.Services.ShopingCart.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/ref/BlinkShop.Services.ShopingCart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/ref/BlinkShop.Services.ShopingCart.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/refint/BlinkShop.Services.ShopingCart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlinkShop.Services.ShopingCart/obj/Debug/net7.0/refint/BlinkShop.Services.ShopingCart.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -509,7 +503,7 @@
       <workItem from="1706505132057" duration="15200000" />
       <workItem from="1706529480757" duration="1842000" />
       <workItem from="1706591051203" duration="4613000" />
-      <workItem from="1706677534072" duration="14065000" />
+      <workItem from="1706677534072" duration="16022000" />
     </task>
     <servers />
   </component>
@@ -594,109 +588,161 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs</url>
-          <line>66</line>
+          <line>67</line>
           <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.ShopingCart\Controllers\CartShop.cs" initialLine="66" containingFunctionPresentation="Method 'UpsertCart'">
             <startOffsets>
-              <option value="2564" />
+              <option value="2585" />
             </startOffsets>
             <endOffsets>
-              <option value="2619" />
+              <option value="2641" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs</url>
-          <line>48</line>
+          <line>50</line>
           <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.ShopingCart\Controllers\CartShop.cs" initialLine="48" containingFunctionPresentation="Method 'UpsertCart'">
             <startOffsets>
-              <option value="1762" />
+              <option value="1785" />
             </startOffsets>
             <endOffsets>
-              <option value="2007" />
+              <option value="2031" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs</url>
-          <line>52</line>
+          <line>54</line>
           <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.ShopingCart\Controllers\CartShop.cs" initialLine="52" containingFunctionPresentation="Method 'UpsertCart'">
             <startOffsets>
-              <option value="2024" />
+              <option value="2048" />
             </startOffsets>
             <endOffsets>
-              <option value="2050" />
+              <option value="2074" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs</url>
-          <line>53</line>
+          <line>55</line>
           <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.ShopingCart\Controllers\CartShop.cs" initialLine="53" containingFunctionPresentation="Method 'UpsertCart'">
             <startOffsets>
-              <option value="2067" />
+              <option value="2091" />
             </startOffsets>
             <endOffsets>
-              <option value="2068" />
+              <option value="2092" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs</url>
-          <line>25</line>
+          <line>27</line>
           <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.ShopingCart\Controllers\CartShop.cs" initialLine="25" containingFunctionPresentation="Method 'UpsertCart'">
             <startOffsets>
-              <option value="768" />
+              <option value="791" />
             </startOffsets>
             <endOffsets>
-              <option value="797" />
+              <option value="820" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs</url>
-          <line>24</line>
+          <line>25</line>
           <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.ShopingCart\Controllers\CartShop.cs" initialLine="24" containingFunctionPresentation="Method 'UpsertCart'">
             <startOffsets>
-              <option value="638" />
-              <option value="729" />
+              <option value="643" />
+              <option value="752" />
             </startOffsets>
             <endOffsets>
-              <option value="755" />
-              <option value="753" />
+              <option value="778" />
+              <option value="776" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs</url>
-          <line>26</line>
+          <line>28</line>
           <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.ShopingCart\Controllers\CartShop.cs" initialLine="26" containingFunctionPresentation="Method 'UpsertCart'">
             <startOffsets>
-              <option value="810" />
+              <option value="833" />
             </startOffsets>
             <endOffsets>
-              <option value="811" />
+              <option value="834" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs</url>
-          <line>103</line>
+          <line>105</line>
           <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.ShopingCart\Controllers\CartShop.cs" initialLine="103" containingFunctionPresentation="Method 'Remove'">
             <startOffsets>
-              <option value="3990" />
+              <option value="4015" />
             </startOffsets>
             <endOffsets>
-              <option value="4121" />
+              <option value="4146" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs</url>
+          <line>98</line>
+          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.ShopingCart\Controllers\CartShop.cs" initialLine="97" containingFunctionPresentation="Method 'Remove'">
+            <startOffsets>
+              <option value="3634" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3778" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs</url>
+          <line>100</line>
+          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.ShopingCart\Controllers\CartShop.cs" initialLine="98" containingFunctionPresentation="Method 'Remove'">
+            <startOffsets>
+              <option value="3791" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3894" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs</url>
+          <line>103</line>
+          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.ShopingCart\Controllers\CartShop.cs" initialLine="101" containingFunctionPresentation="Method 'Remove'">
+            <startOffsets>
+              <option value="3970" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3984" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BlinkShop.Services.ShopingCart/Controllers/CartShop.cs</url>
+          <line>104</line>
+          <properties documentPath="D:\micro service\project\BlinkShop\BlinkShop.Services.ShopingCart\Controllers\CartShop.cs" initialLine="102" containingFunctionPresentation="Method 'Remove'">
+            <startOffsets>
+              <option value="3997" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3998" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -17,12 +17,14 @@ public class CartShop : ControllerBase
         _myContext = myContext;
         _responseDto = new ResponseDto();
     }
-[HttpPost]
+
+    [HttpPost]
     public async Task<IActionResult> UpsertCart(CartshopDto cd)
     {
         try
         {
-            var CartHeaderFromDb =await _myContext.CratHeaders.AsNoTracking().FirstOrDefaultAsync(x => x.id == cd.CratHeader.id);
+            var CartHeaderFromDb = await _myContext.CratHeaders.AsNoTracking()
+                .FirstOrDefaultAsync(x => x.id == cd.CratHeader.id);
             if (CartHeaderFromDb == null)
             {
                 CartHeader cartHeader = new()
@@ -46,7 +48,7 @@ public class CartShop : ControllerBase
             }
             else
             {
-                var productinCart =await _myContext.CardDtailes.AsNoTracking().FirstOrDefaultAsync(
+                var productinCart = await _myContext.CardDtailes.AsNoTracking().FirstOrDefaultAsync(
                     x => x.productId == cd.CardDtailesDtos.First().productId &&
                          x.CardHeaderId == CartHeaderFromDb.id
                 );
@@ -57,22 +59,21 @@ public class CartShop : ControllerBase
                         productId = cd.CardDtailesDtos.First().productId,
                         Count = cd.CardDtailesDtos.First().Count,
                         CardHeaderId = CartHeaderFromDb.id,
-
                     };
                     _myContext.CardDtailes.Add(cardDtailes);
                     await _myContext.SaveChangesAsync();
                 }
                 else
                 {
-                      cd.CardDtailesDtos.First().Count +=productinCart.Count;
-                    cd.CardDtailesDtos.First().CardHeaderId = CartHeaderFromDb .id;
+                    cd.CardDtailesDtos.First().Count += productinCart.Count;
+                    cd.CardDtailesDtos.First().CardHeaderId = CartHeaderFromDb.id;
                     cd.CardDtailesDtos.First().CardDtailesId = productinCart.CardDtailesId;
 
                     CardDtailes cardDtailes = new()
                     {
                         productId = cd.CardDtailesDtos.First().productId,
                         Count = cd.CardDtailesDtos.First().Count,
-                        CardHeaderId = CartHeaderFromDb .id,
+                        CardHeaderId = CartHeaderFromDb.id,
                     };
                     _myContext.CardDtailes.Add(cardDtailes);
                     await _myContext.SaveChangesAsync();
@@ -89,23 +90,24 @@ public class CartShop : ControllerBase
 
         return Ok(_responseDto);
     }
-    
+
     [HttpPost("delete")]
-    public async Task<IActionResult> Remove([FromBody]int CardDetailsId)
+    public async Task<IActionResult> Remove([FromBody] int CardDetailsId)
     {
         try
         {
-            var cartDtailesFromDb =await _myContext.CardDtailes.AsNoTracking().FirstOrDefaultAsync(x => x.CardDtailesId==CardDetailsId);
+            var cartDtailesFromDb = await _myContext.CardDtailes.AsNoTracking()
+                .FirstOrDefaultAsync(x => x.CardDtailesId == CardDetailsId);
             var cart = _myContext.CardDtailes.Where(x => x.CardHeaderId == cartDtailesFromDb.CardHeaderId).Count();
             _myContext.CardDtailes.Remove(cartDtailesFromDb);
-            
+
             if (cart == 1)
             {
                 var cardheader =
                     await _myContext.CratHeaders.FirstOrDefaultAsync(x => x.id == cartDtailesFromDb.CardHeaderId);
                 _myContext.CratHeaders.Remove(cardheader);
-              
             }
+
             await _myContext.SaveChangesAsync();
         }
         catch (Exception e)
@@ -114,6 +116,49 @@ public class CartShop : ControllerBase
             _responseDto.Massege = e.Message;
         }
 
+        return Ok(_responseDto);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> GetUserCart(string userid)
+    {
+        try
+        {
+            var ch = _myContext.CratHeaders.First(x => x.userid == userid);
+            CratHeaderDto carthedardt0 = new()
+            {
+                userid = ch.userid,
+                discount = ch.discount,
+                CouponCode = ch.CouponCode,
+                id = ch.id
+            };
+            var cd = _myContext.CardDtailes.Where(x => x.CardHeaderId == ch.id).Select(x => new CardDtailesDto()
+            {
+                productId = x.productId,
+                Count = x.Count,
+                CardHeaderId = x.CardHeaderId,
+                CardDtailesId = x.CardDtailesId,
+                product = x.product,
+                cartheader = x.cartheader
+            }).ToList();
+
+            CartshopDto cart = new CartshopDto()
+            {
+                CratHeader = carthedardt0,
+                CardDtailesDtos = cd
+            };
+            foreach (var i in cart.CardDtailesDtos)
+            {
+                cart.CratHeader.cartTotal += i.Count * i.product.price;
+            }
+
+            _responseDto.Result = cart;
+        }
+        catch (Exception e)
+        {
+            _responseDto.Success = false;
+            _responseDto.Massege = e.Message;
+        }
         return Ok(_responseDto);
     }
 }
