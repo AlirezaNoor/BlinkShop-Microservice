@@ -90,8 +90,8 @@ public class CartShop : ControllerBase
         return Ok(_responseDto);
     }
     
-    [HttpPost]
-    public async Task<IActionResult> Remove(int CardDetailsId)
+    [HttpPost("delete")]
+    public async Task<IActionResult> Remove([FromBody]int CardDetailsId)
     {
         try
         {
@@ -104,9 +104,9 @@ public class CartShop : ControllerBase
                 var cardheader =
                     await _myContext.CratHeaders.FirstOrDefaultAsync(x => x.id == cartDtailesFromDb.CardHeaderId);
                 _myContext.CratHeaders.Remove(cardheader);
-                await _myContext.SaveChangesAsync();
+              
             }
- 
+            await _myContext.SaveChangesAsync();
         }
         catch (Exception e)
         {
